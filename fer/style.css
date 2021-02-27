@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0px;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('FerrariBackground.jpg');
+    
+    background-size: cover;
+    
+  }
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(SF-Pro-Text-Heavy.otf);
+
+  }
+.header h1 {
+    
+    height: 1vh;
+    font-size: 40px;
+    text-align: top;
+    font-family: myFirstFont;
+    padding: 15px;
+    padding-left: 90px;
+    letter-spacing: 10px;
+    color:  rgb(189, 188, 188);
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: yellow;
+    
+  
+}
+.column {
+    float: left;
+    
+    
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+    
+  }
+
+.image{
+    background-image: url(FerrariBackground.jpg) ;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+@font-face {
+    font-family: second;
+    src: url(SF-Pro-Text-Light.otf);
+}
+.topnav {
+    float: right;
+    height: 50px;
+    padding-left: 500px;
+    
+    
+    
+}
+
+.topnav a {
+    color: rgb(189, 188, 188);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: second;
+    letter-spacing: 2px;
+    padding: 50px 15px;
+    
+}
+@font-face {
+    font-family: third;
+    src: url(SF-Pro-Text-Semibold.otf);
+}
+.topnav a:hover {
+    color: white;
+    font-size: 30px;
+    font-family: third;
+}
+ 
+
+  
+  .abc {
+    position: sticky;
+    float: left;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    
+    
+    
+
+
+}
+.abc a {
+
+    color: white;
+    font-size: 21px;
+    font-family: third;
+    letter-spacing: 2px;
+    padding: 17px 20px;
+    
+    text-decoration-line: underline;
+    text-underline-position: left;
+    text-decoration-color: red;
+    float: left;
+    text-rendering: auto;
+    
+
+    
+    
+}
+.abc a:hover {
+    color: white;
+    text-decoration-color: yellow;
+    
+}
+.subnav {
+    float: left;
+  overflow: hidden;
+
+  }
+  
+ .subnavbtn {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  .subnav-content {
+    
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    display: none;
+    white-space: nowrap;
+    height: 80px;
+  }
+  
+  .subnav-content a {
+    float: right;
+    display: inline;
+    text-decoration: none;
+  }
+  
+  .subnav:hover .subnav-content {
+    display:inline;
+  }
+  @media only screen and (min-width: 1200px) {
+    .subnavbtn {
+      display: none;
+    }
+    .subnav-content{
+        display: inline;
+    }
+  }
+  
+
